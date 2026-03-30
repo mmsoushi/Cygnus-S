@@ -78,19 +78,19 @@
 
         FUNC_AND_NUM {
             bindings = <
-&kp TILDE       &kp F7  &kp F8  &kp F9  &kp F10                              &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&kp SLASH       &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp KP_NUMLOCK  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &kp RIGHT_ALT   &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER
-&trans          &trans  &trans  &trans  &trans   &trans      &trans          &kp KP_NUMBER_0                                                     &kp KP_DOT
+&kp TILDE         &kp F7  &kp F8  &kp F9  &kp F10                              &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp LEFT_CONTROL  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp KP_NUMLOCK  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp LEFT_SHIFT    &kp F1  &kp F2  &kp F3  &kp F12  &trans      &kp RIGHT_ALT   &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER
+&trans            &trans  &trans  &trans  &trans   &trans      &trans          &kp KP_NUMBER_0                                                     &kp KP_DOT
             >;
         };
 
         SYMBOL_AND_SHORTCUT {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)        &kp LS(NUMBER_3)  &kp LS(NUMBER_4)         &kp LS(N5)                             &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)        &kp LS(N9)           &kp LS(INTERNATIONAL_3)
+&kp HOME          &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp END     &trans      &trans         &trans            &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LEFT_BRACKET     &kp SLASH
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans            &kp LG(LS(RIGHT_ARROW))  &trans      &trans      &kp RIGHT_ALT  &kp PRINTSCREEN   &kp SEMICOLON      &kp SINGLE_QUOTE  &kp INTERNATIONAL_3  &kp INTERNATIONAL_1
+&trans            &trans                  &trans            &trans                   &trans      &trans      &trans         &trans                                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
