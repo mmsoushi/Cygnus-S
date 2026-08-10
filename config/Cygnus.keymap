@@ -87,7 +87,7 @@
 
         symbol {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                             &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(NUMBER_8)  &kp LS(NUMBER_9)     &kp INTERNATIONAL_3
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                             &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(NUMBER_8)  &kp LS(NUMBER_9)     &kp LS(INTERNATIONAL_3)
 &kp TAB           &trans            &trans            &trans            &trans            &trans      &kp LG(E)      &kp LG(R)         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LEFT_BRACKET     &kp SLASH
 &kp LEFT_SHIFT    &trans            &trans            &trans            &trans            &trans      &kp RIGHT_ALT  &kp PRINTSCREEN   &kp SEMICOLON      &kp SINGLE_QUOTE  &kp INTERNATIONAL_3  &kp LS(INT1)
 &trans            &trans            &trans            &trans            &trans            &trans      &trans         &trans                                                                      &trans
